@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
 
-                Intent intent=new Intent(this,CreateGoal.class);
+                Intent intent=new Intent(MainActivity.this,CreateGoal.class);
 
                 /**
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
